@@ -1,0 +1,11 @@
+---
+title: "Document Title"
+author: "Author Name"
+date: today
+format: bhhi-quarto-html
+---
+
+```{r setup}
+library(bhhi.doc)
+```
+
