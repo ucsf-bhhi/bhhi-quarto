@@ -1,6 +1,6 @@
 title: BHHI Quarto Format
 author: Eve Perry
-version: 0.1.0
+version: 1.0.0
 contributes:
   format:
     common:
