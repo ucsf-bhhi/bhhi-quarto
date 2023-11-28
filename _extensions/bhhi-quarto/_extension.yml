@@ -25,5 +25,6 @@ contributes:
       code-tools:
         source: true
       code-overflow: wrap
+      self-contained: true
     docx:
       reference-doc: custom-reference-doc.docx
