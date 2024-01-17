@@ -18,7 +18,7 @@ contributes:
       linestretch: 1.6
       title-block-banner: true
       toc: true
-      toc-location: left
+      toc-depth: 4
       toc-title: Contents
       anchor-sections: false
       smooth-scroll: true
