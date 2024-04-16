@@ -19,7 +19,7 @@ $headings-color: #052049 !default;
 
 /*-- scss:rules --*/
 
-  // Title Block
+// Title Block
 
 div.quarto-title-block h1.title {
   color: $navbar-fg;
@@ -30,8 +30,16 @@ div.quarto-title-block h1.title {
   text-transform: none;
 }
 
-.quarto-title-banner .code-tools-button:not(.disabled):hover {
-  border-bottom-width: 4px;
+.code-tools-button {
+  border-left-width: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  .quarto-title-banner {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
 
 .quarto-title-block .quarto-title-banner {
@@ -47,3 +55,4 @@ div.quarto-title {
   max-height: 100px;
   align-self: center;
 }
+

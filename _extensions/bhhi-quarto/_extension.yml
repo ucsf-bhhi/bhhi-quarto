@@ -28,5 +28,7 @@ contributes:
       self-contained: true
       template-partials:
         - title-block.html
+      include-before-body:
+        file: move-code-button.html
     docx:
       reference-doc: custom-reference-doc.docx
