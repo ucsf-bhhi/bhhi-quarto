@@ -1,0 +1,44 @@
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="row column-body d-flex justify-content-between">
+      $if(title)$
+      <div class="quarto-title">
+        <h1 class="title">$title$</h1>
+        $if(subtitle)$
+          <p class="subtitle lead">$subtitle$</p>
+        $endif$
+      </div>
+    $endif$
+      <div class="quarto-title">
+        <img src="_extensions/bhhi-quarto/bhhi-logo.png" class="bhhi-logo">
+      </div>
+    </div>
+  </div>
+  <div class="quarto-title-meta">
+    $if(author)$
+    <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      $for(author)$
+      <div class="quarto-title-meta-contents">$author$</div>
+      $endfor$
+    </div>
+    $endif$
+
+    $if(date)$
+    <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">$date$</p>
+      </div>
+    </div>
+    $endif$
+  </div>
+  <div>
+    $if(abstract)$
+    <div class="abstract">
+      <div class="abstract-title">$abstract-title$</div>
+      $abstract$
+    </div>
+    $endif$
+  </div>
+</header>

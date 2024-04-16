@@ -4,3 +4,4 @@
 .Ruserdata
 *.html
 *_files/
+!_extensions/bhhi-quarto/title-block.html

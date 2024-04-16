@@ -37,35 +37,13 @@ div.quarto-title-block h1.title {
 .quarto-title-block .quarto-title-banner {
   background-image: none;
 }
-/*
-[screen-start] 1.5em [screen-start-inset] 5fr [page-start] 35px [page-start-inset] minmax(0px, 175px) [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(450px, calc( 800px - 3em )) [body-content-end] 1.5em [body-end] 50px [body-end-outset] minmax(0px, 200px) [page-end-inset] 50px [page-end] 5fr [screen-end-inset] 1.5em [screen-end];
-}*/
-@include media-breakpoint-up(md) {
-  .quarto-title-block .quarto-title-banner {
-    background-image: url(_extensions/ucsf-bhhi/bhhi-quarto/bhhi-logo.png);
-    background-size: 70px;
-    background-position-x: 1.5em;
-    background-position-y: 50%;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-  }
+
+div.quarto-title {
+  align-self: center;
 }
 
-@include media-breakpoint-up(lg) {
-  .quarto-title-block .quarto-title-banner {
-    background-size: 85px;
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .quarto-title-block .quarto-title-banner {
-    background-size: 100px;
-  }
-}
-
-@include media-breakpoint-up(xxl) {
-  .quarto-title-block .quarto-title-banner {
-    background-size: 115px;
-    background-position-x: calc(calc(1vw - 14px) * 50 + 1.5em);
-  }
+.bhhi-logo {
+  width: auto;
+  max-height: 100px;
+  align-self: center;
 }
