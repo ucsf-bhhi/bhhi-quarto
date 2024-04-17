@@ -1,0 +1,24 @@
+---
+title: "Document Title"
+subtitle: "Document Subtitle"
+author: "Author Name"
+date: today
+abstract-title: "The Abstract"
+abstract: "An abstract."
+format: bhhi-quarto-html
+---
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+Here is some text.
+
+```{r setup}
+1 + 1
+```
+
