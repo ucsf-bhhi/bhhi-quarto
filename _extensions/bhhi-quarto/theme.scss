@@ -21,18 +21,26 @@ $headings-color: #052049 !default;
 
 // Title Block
 
-div.quarto-title-block h1.title {
+div.quarto-title-block {
   color: $navbar-fg;
 }
 
-.quarto-title-banner .code-tools-button {
+h1.title {
+  color: $navbar-fg;
+}
+
+
+.quarto-title-banner {
   color: $navbar-fg;
   text-transform: none;
 }
 
-.code-tools-button {
-  border-left-width: 0;
-  margin-left: 0;
+.quarto-title-block .quarto-title-banner {
+  background-image: none;
+}
+
+div.quarto-title {
+  align-self: center;
 }
 
 @media (min-width: 992px) {
@@ -42,12 +50,11 @@ div.quarto-title-block h1.title {
   }
 }
 
-.quarto-title-block .quarto-title-banner {
-  background-image: none;
-}
-
-div.quarto-title {
-  align-self: center;
+.code-tools-button {
+  color: $navbar-fg;
+  text-transform: none;
+  border-left-width: 0;
+  margin-left: 0;
 }
 
 .bhhi-logo {
