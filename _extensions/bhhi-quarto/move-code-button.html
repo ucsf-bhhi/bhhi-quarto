@@ -1,0 +1,19 @@
+<script>
+  if (document.getElementById("quarto-code-tools-source")) {
+    let titleBlock = document.querySelector('.quarto-title-block');
+    let codeButton = titleBlock.querySelector(".code-tools-button");
+
+    let subtitle = titleBlock.querySelector(".subtitle");
+    if (!subtitle) {
+      let title = titleBlock.querySelector(".quarto-title-block").querySelector("div");
+      let bottomStyle = {
+        flexDirection: "column",
+        alignItems: "flex-start"
+      }
+
+      Object.assign(title.style, bottomStyle);
+    } else {
+      subtitle.after(codeButton);
+    }
+  }
+</script>

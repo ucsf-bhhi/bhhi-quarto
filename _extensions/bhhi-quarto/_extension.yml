@@ -1,6 +1,6 @@
 title: BHHI Quarto Format
 author: Eve Perry
-version: 1.1.0
+version: 1.2.0
 contributes:
   format:
     common:
@@ -26,5 +26,9 @@ contributes:
         source: true
       code-overflow: wrap
       self-contained: true
+      template-partials:
+        - title-block.html
+      include-before-body:
+        file: move-code-button.html
     docx:
       reference-doc: custom-reference-doc.docx
