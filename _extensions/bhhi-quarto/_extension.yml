@@ -1,11 +1,11 @@
 title: BHHI Quarto Format
 author: Eve Perry
-version: 1.2.2
+version: 1.2.3
 contributes:
   format:
     common:
       execute:
-        echo: false
+        echo: true
         warning: false
         message: false
       knitr:
@@ -22,6 +22,7 @@ contributes:
       toc-title: Contents
       anchor-sections: false
       smooth-scroll: true
+      code-fold: true
       code-tools:
         source: true
       code-overflow: wrap
